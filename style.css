@@ -1,0 +1,46 @@
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 15px;
+    justify-items: center;
+}
+
+.div-text {
+    border: 1px solid gray;
+    width: 200px;
+}
+.div-submit {
+    width: 80px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: lightgray;
+    border: 2px solid gray;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.div-submit:hover, .div-submit:focus{
+    border-color: rgb(68, 68, 68);
+    background-color: rgb(243, 243, 243);
+}
+
+.input-submit{
+    background-color: lavender;
+    border: 2px darkblue solid;
+    transition: all 0.3s ease;
+}
+.input-submit:hover, .input-submit:focus{
+    background-color: rgb(245, 245, 253);
+    border-color: rgb(0, 0, 56);
+}

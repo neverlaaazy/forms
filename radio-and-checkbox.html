@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>radio-and-checkbox</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="pages-menu">
+            <a href="input-range.html">Перейти к след. заданию→</a><br>
+            <a href="checkboxes.html">←Перейти к предыдущему</a>
+        </div><br>
+        <div class="filter__section">
+            <h3>Размер</h3>
+            <div class="filter-size">
+                <div class="filter-size__item">
+                    <input class="filter-size__radio" type="radio" name="size" id="size-s">
+                    <label class="filter-size__label" for="size-s" tabindex="0" id="size-s-label" aria-label="маленький размер" role="radio" aria-checked="false">S</label>
+                </div>
+                <div class="filter-size__item">
+                    <input class="filter-size__radio" type="radio" name="size" id="size-m">
+                    <label class="filter-size__label" for="size-m" tabindex="0" id="size-m-label" aria-label="средний размер" role="radio" aria-checked="false">M</label>
+                </div>
+                <div class="filter-size__item">
+                    <input class="filter-size__radio" type="radio" name="size" id="size-l" disabled>
+                    <label class="filter-size__label" for="size-l" tabindex="0" id="size-l-label" aria-label="большой размер" role="radio" aria-checked="false">L</label>
+                </div>
+                <div class="filter-size__item">
+                    <input class="filter-size__radio" type="radio" name="size" id="size-xl" disabled>
+                    <label class="filter-size__label" for="size-xl" tabindex="0" id="size-xl-label" aria-label="очень большой размер" role="radio" aria-checked="false">XL</label>
+                </div>
+            </div>
+        </div>
+        <div class="filter__section">
+            <h3>Бренд</h3>
+            <div class="filter-brand">
+                <div class="filter-brand__item">
+                    <input class="filter-brand__checkbox" type="checkbox" name="brand-apple" id="brand-apple">
+                    <label class="filter-brand__label" for="brand-apple" tabindex="0" id="brand-apple-label" aria-label="бренд apple" role="checkbox" aria-checked="false">Apple</label>
+                </div>
+                <div class="filter-brand__item">
+                    <input class="filter-brand__checkbox" type="checkbox" name="brand-samsung" id="brand-samsung">
+                    <label class="filter-brand__label" for="brand-samsung" tabindex="0" id="brand-samsung-label" aria-label="бренд samsung" role="checkbox" aria-checked="false">Samsung</label>
+                </div>
+                <div class="filter-brand__item">
+                    <input class="filter-brand__checkbox" type="checkbox" name="brand-xiaomi" id="brand-xiaomi">
+                    <label class="filter-brand__label" for="brand-xiaomi" tabindex="0" id="brand-xiaomi-label" aria-label="бренд xiaomi" role="checkbox" aria-checked="false">Xiaomi</label>
+                </div>
+                <div class="filter-brand__item">
+                    <input class="filter-brand__checkbox" type="checkbox" name="brand-huawei" id="brand-huawei">
+                    <label class="filter-brand__label" for="brand-huawei" tabindex="0" id="brand-huawei-label" aria-label="бренд huawei" role="checkbox" aria-checked="false">Huawei</label>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

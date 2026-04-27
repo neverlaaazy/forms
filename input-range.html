@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>input-range</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script defer src="js/range.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="pages-menu">
+            <a href="">Перейти к след. заданию→</a><br>
+            <a href="radio-and-checkbox.html">←Перейти к предыдущему</a>
+        </div><br>
+        <div class="filter__section">
+            <h3>Цена</h3>
+            <div class="filter-price">
+                <div class="filter-price__range">
+                    <input  type="range"
+                            class="filter-price__slider"
+                            id="price-range"
+                            min="0"
+                            max="100000"
+                            step="1000"
+                            value="50000">
+                    <div class="filter-price__values">
+                        <span class="filter-price__min">0 руб.</span>
+                        <span class="filter-price__max">100000 руб.</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

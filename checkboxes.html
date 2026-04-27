@@ -5,12 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Checkboxes</title>
     <link rel="stylesheet" href="css/style.css">
-
+    <script defer src="js/checkboxes.js"></script>
 </head>
 <body>
     <div class="container">
         <div class="pages-menu">
-            <a href="">Перейти к след. заданию→</a><br>
+            <a href="radio-and-checkbox.html">Перейти к след. заданию→</a><br>
             <a href="form-menu.html">←Перейти к предыдущему</a>
         </div><br>
         <div>
@@ -18,19 +18,19 @@
             <div class="filter-color">
                 <div class="filter-color__item">
                     <input class="filter-color__checkbox" type="checkbox" name="color-red" id="color-red">
-                    <label class="filter-color__label" for="color-red" aria-label="Красный цвет" style="background-color: red;"></label>
+                    <label class="filter-color__label" for="color-red" id="color-red-label" aria-label="красный цвет" role="checkbox" aria-checked="false" style="background-color: red;" tabindex="0"></label>
                 </div>
                 <div class="filter-color__item">
                     <input class="filter-color__checkbox" type="checkbox" name="color-green" id="color-green">
-                    <label class="filter-color__label" for="color-green" aria-label="Зелёный цвет" style="background-color: green;"></label>
+                    <label class="filter-color__label" for="color-green" id="color-green-label" aria-label="зелёный цвет" role="checkbox" aria-checked="false" style="background-color: green;" tabindex="0"></label>
                 </div>
                 <div class="filter-color__item">
                     <input class="filter-color__checkbox" type="checkbox" name="color-blue" id="color-blue">
-                    <label class="filter-color__label" for="color-blue" aria-label="Синий цвет" style="background-color: blue;"></label>
+                    <label class="filter-color__label" for="color-blue" id="color-blue-label" aria-label="синий цвет" role="checkbox" aria-checked="false" style="background-color: blue;" tabindex="0"></label>
                 </div>
                 <div class="filter-color__item">
                     <input class="filter-color__checkbox" type="checkbox" name="color-yellow" id="color-yellow">
-                    <label class="filter-color__label" for="color-yellow" aria-label="Желтый цвет" style="background-color: yellow;"></label>
+                    <label class="filter-color__label" for="color-yellow" id="color-yellow-label" aria-label="желтый цвет" role="checkbox" aria-checked="false" style="background-color: yellow;" tabindex="0"></label>
                 </div>
             </div>
         </div>

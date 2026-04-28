@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>custom-select</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script defer src="js/c-select.js"></script>
+    
+    <!-- Include base CSS (optional) -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/choices.js/public/assets/styles/base.min.css" />
+    <!-- Or versioned -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/choices.js@11.1.0/public/assets/styles/base.min.css" />
+
+    <!-- Include Choices CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/choices.js/public/assets/styles/choices.min.css" />
+    <!-- Or versioned -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/choices.js@11.1.0/public/assets/styles/choices.min.css" />
+
+    
+</head>
+
+<body>
+    <div class="container">
+        <div class="pages-menu">
+            <a href="">Перейти к след. заданию→</a><br>
+            <a href="double-input-range.html">←Перейти к предыдущему</a>
+        </div><br>
+        <div class="filter__section">
+            <h3>Сортировка</h3>
+            <select name="sort" id="sort" aria-label="Сортировка товаров" class="filter-sort-choices">
+                <option value="popular">По популярности</option>
+                <option value="price-asc">По возрастанию цены</option>
+                <option value="price-desc">По убыванию цены</option>
+                <option value="rating">По рейтингу</option>
+                <option value="new">Сначала новыеы</option>
+            </select>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/choices.js/public/assets/scripts/choices.min.js"></script>
+        <!-- Or versioned -->
+        <script src="https://cdn.jsdelivr.net/npm/choices.js@11.1.0/public/assets/scripts/choices.min.js"></script>
+    </div>
+</body>
+
+</html>
